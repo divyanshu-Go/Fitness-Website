@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+:root {
+    --clr-primary: #7380ec;
+    --clr-white: #ffffff;
+    --clr-info-light: #dce1eb;
+    --clr-dark: #363949;
+    --clr-primary-varient: #111e88;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --box-shadow: 0 2rem 3rem var(--clr-light);
+}
+
+aside {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+aside .left-sidebar {
+    background-color: var(--clr-dark);
+    padding: 1rem;
+    border-radius: var(--border-radius-2);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-bottom: 2rem;
+    height: 100%;
+}
+
+aside .left-sidebar a {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: var(--border-radius-1);
+    color: var(--clr-info-light);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+aside .left-sidebar a:hover {
+    background-color: var(--clr-primary-varient);
+    color: var(--clr-white);
+}
+
+aside .left-sidebar a span {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: var(--clr-primary);
+}
+
+aside .left-sidebar a h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+aside .left-sidebar a.active {
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+}

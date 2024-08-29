@@ -1,0 +1,13 @@
+/* routing adjustment */
+
+
+.newsPage-container {
+    display: grid;
+    width: 96%;
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto;
+    margin: 0 auto;
+    flex: 1; /* Ensures the container grows to fill available space */
+    position: relative; /* To position footer correctly */
+    min-height: calc(100vh - 60px); /* Adjust height to allow space for the footer */
+}

@@ -1,0 +1,82 @@
+/* Define unique root variables for the News component */
+:root {
+    --news-clr-primary: #7380ec;
+    --news-clr-danger: #ff7782;
+    --news-clr-white: #ffffff;
+    --news-clr-info-dark: #7d8da1;
+    --news-clr-info-light: #dce1eb;
+    --news-clr-dark: #363949;
+    --news-card-padding: 1.8rem;
+    --news-padding-1: 1.2rem;
+    --news-box-shadow: 0 2rem 3rem var(--news-clr-light);
+}
+
+.news {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+    list-style: none;
+    appearance: none; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.news-body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.88rem;
+    user-select: none;
+    overflow-x: hidden;
+    background: var(--news-clr-info-light);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Responsive adjustments for footer */
+@media only screen and (max-width: 768px) {
+    .news-main {
+        margin-top: 1rem;
+    }
+
+    .news-footer {
+        box-shadow: none;
+        position: relative;
+    }
+}
+
+/* Footer Styling */
+.news-footer {
+    background-color: var(--news-clr-dark);
+    color: var(--news-clr-white);
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 -2rem 3rem var(--news-clr-light);
+    margin-top: auto;
+}
+
+/* Logo design */
+.news-logo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* Heading design */
+.news-title {
+    background-color: var(--news-clr-primary);
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    color: aliceblue;
+}
+
+/* Iframe design */
+.news-iframe {
+    border: 5px double black;
+}

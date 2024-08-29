@@ -1,0 +1,57 @@
+:root {
+    --clr-info-dark: #7d8da1;
+    --clr-info-light: #dce1eb;
+    --clr-dark: #363949;
+    --clr-light: rgba(132, 139, 200, 0.18);
+    --clr-dark-varient: #677483;
+    --clr-white: #ffffff;
+
+    --mode: white;
+    --mode-inverted: rgba(37, 40, 44, 0.974);
+    --card-border-radius: 2rem;
+    --card-padding: 1.8rem;
+    --box-shadow: 0 2rem 3rem var(--clr-light);
+}
+
+.right-sidebar {
+    background-color: var(--mode);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+    overflow-y: auto;
+    color: var(--mode-inverted);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.right-sidebar > .recent-updates > h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.recent-updates p {
+    font-size: 0.7rem;
+    color: var(--mode-inverted);
+}
+
+.recent-updates b {
+    color: var(--mode-inverted);
+}
+
+.profile-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.text-muted {
+    color: var(--clr-info-dark);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
