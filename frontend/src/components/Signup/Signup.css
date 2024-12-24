@@ -1,0 +1,90 @@
+.signup-login-container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.signup-logo img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.signup-title {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333333;
+}
+
+.signup-description {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.signup-input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.signup-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.signup-input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+.signup-input:focus {
+    border-color: #6e8efb;
+    outline: none;
+}
+
+.signup-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6e8efb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+    background-color: #5a78db;
+}
+
+.signup-additional-options {
+    margin-top: 20px;
+}
+
+.signup-already-member {
+    font-size: 14px;
+    color: #666666;
+}
+
+.signup-link {
+    font-size: 14px;
+    color: #6e8efb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.signup-link:hover {
+    color: #5a78db;
+    text-decoration: underline;
+}

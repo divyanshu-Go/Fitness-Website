@@ -17,6 +17,10 @@ const LeftSidebar = () => {
             <span className="material-symbols-sharp">monitor_weight</span>
             <h3>BMI</h3>
           </Link>
+          <Link to="/steps">
+            <span className="material-symbols-sharp">steps</span>
+            <h3>Steps</h3>
+          </Link>
           <Link to="/calorie">
             <span className="material-symbols-sharp">nutrition</span>
             <h3>Fitness Diet</h3>

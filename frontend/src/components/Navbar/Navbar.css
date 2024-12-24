@@ -64,7 +64,7 @@ body {
     width: auto;
 }
 
-.nav-left > .img > .white{
+.nav-left > .img.white{
     /* filter: invert(1); */
     filter: invert(0.9) brightness(1.5) contrast(0.9);
 }
@@ -139,6 +139,10 @@ body {
     padding: 4px;
     font-weight: 100;
 }
+.cart .text{
+    color: var(--mode-inverted);
+
+}
 
 .dark-mode-toggle > span:hover,
 .search-icon:hover {
@@ -164,10 +168,18 @@ body {
     color: var(--theme-primary);
 }
 
-.home-icon > p {
+.home-icon p {
     align-self: flex-end;
     font-size: 1rem;
     font-weight: 700;
     margin-left: 0.4rem;
     color: var(--mode-inverted);
 }
+.home-link {
+  text-decoration: none; /* Removes underline from link */
+  color: inherit; /* Ensures the text color remains unchanged */
+  display: flex; /* Keeps the layout of the icon and text consistent */
+  align-items: center; /* Vertically aligns the content */
+}
+
+/* Existing styles for .cp, .home-icon, .material-symbols-outlined, p should remain unchanged */

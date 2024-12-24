@@ -55,18 +55,18 @@ const Navbar = () => {
     <div className="top" id="top">
       <div className="nav-left logo">
         <img src="Logo.png" alt="Logo" className="img" />{" "}
-        {/* Replace with your logo image */}
+        
         <h2>
           <span className="danger cp">Website</span>
         </h2>
         <div className="cp home-icon">
-          <span className="material-symbols-outlined">
-            <Link to="/">home</Link>
-          </span>
+          <Link to="/" className="home-link">
+            <span className="material-symbols-outlined">home</span>
+          </Link>
 
-          <p>
-            <Link to="/">Home </Link>
-          </p>
+          <Link to="/" className="home-link">
+            <p>Home</p>
+          </Link>
         </div>
       </div>
 
@@ -83,9 +83,12 @@ const Navbar = () => {
           </span>
         </div>
 
+      
+       
         <div className="dark-mode-toggle">
+          
           <span className="cp cart material-symbols-outlined">
-            <Link to="/cart">shopping_cart</Link>
+            <Link to="/cart" className="text">shopping_cart</Link>
           </span>
 
           <span id="dark-icon" className="cp material-symbols-outlined">
@@ -93,9 +96,11 @@ const Navbar = () => {
           </span>
         </div>
 
-        <span className="signup cp">
-          <h3>Signup</h3>
-        </span>
+       
+          <Link to="/signup" className="signup cp">
+            <h3>Signup</h3>
+          </Link>
+     
       </div>
     </div>
   );

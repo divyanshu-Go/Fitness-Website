@@ -1,0 +1,115 @@
+.steps-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    /* max-width: 400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+    /* Adjust height to fit the page properly */
+    margin-top: 1rem;
+}
+
+.steps-h2 {
+    display: block;
+    font-size: 1.5em;
+    /* 24px if the base font size is 16px */
+    font-weight: bold;
+    /* 700 */
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+.steps-h1 {
+    font-weight: bold;
+    /* 700 */
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    font-size: 1.6rem;
+    color: #3c3535;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.step-count-display,
+.calories-burned,
+.diet-plan {
+    font-size: 1.1rem;
+}
+
+.step-count-display span,
+.calories-burned span {
+    font-weight: 600;
+    color: #ffcf70;
+}
+
+.recommendation h2 {
+    color: #ffcf70;
+    font-size: 1.2rem;
+}
+
+#step-input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 80%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.steps-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ffcf70;
+    color: #333;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.steps-button:hover {
+    background-color: #ffd97b;
+}
+
+.steps-icon {
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+
+.diet-plan,
+.recommendation {
+    margin-top: 10px;
+}
+
+.recommendation p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* @media (max-width: 768px) {
+    .steps-container {
+        height: auto;
+    }
+
+    .steps-h1 {
+        font-size: 1.4rem;
+    }
+
+    .step-count-display, .calories-burned, .diet-plan {
+        font-size: 1rem;
+    }
+
+    #steps-input, .steps-button {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+} */

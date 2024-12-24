@@ -9,6 +9,8 @@ import CartPage from './Pages/CartPage/CartPage.jsx'
 import ContactUsPage from "./Pages/ContactUsPage/ContactUsPage.jsx";
 import AboutUsPage from "./Pages/AboutUsPage/AboutUsPage.jsx";
 import CaloriePage from "./Pages/CaloriePage/CaloriePage.jsx";
+import SignupPage from "./Pages/SignupPage/SignupPage.jsx";
+import StepPage from "./Pages/StepsPage/StepsPage.jsx";
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
       <Route path="/contactUs" exact element={<ContactUsPage/>}></Route>
       <Route path="/aboutUs" exact element={<AboutUsPage/>}></Route>
       <Route path="/calorie" exact element={<CaloriePage/>}></Route>
+      <Route path="/signup" exact element={<SignupPage/>}></Route>
+      <Route path="/steps" exact element={<StepPage/>}></Route>
       </Routes>
     </Router>
     </>
